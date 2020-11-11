@@ -1,0 +1,624 @@
+/*
+Use this file to make css changes. When done add to the bottom of the main css file and minify that again.
+Don't forget to uncomment the css tag for this file in the header.
+*/
+
+/*
+    RAH Product category menus
+*/
+#woocommerce_product_categories-8 { display:none; }
+@media screen and (max-width: 1083px) {
+    .product-sidebar { width: 100%; padding: 0px 0px; }
+    .dropdown_product_cat { height:30px;  font-size: 14pt; }
+    #woocommerce_product_categories-6 { display:none; }
+    #woocommerce_product_categories-8 { 
+		display:block; 
+		display: list-item;
+     	text-align: center;
+      	padding: 0px 0px 40px 0px;
+	}
+	
+	#woocommerce_product_categories-8 select.dropdown_product_cat {
+		width: 50%;
+        height: 50px;
+        border: 1px solid rgba(129,105,78,.5);
+        background: rgba(129,105,78,.1);
+        font-size: .9em;
+        font-family: "Lora",TimesNewRoman,"Times New Roman",Times,serif;
+        text-transform: uppercase;
+        -moz-appearance: none;
+		padding: 0px 20px;
+	}
+	
+	#woocommerce_product_categories-8 select.dropdown_product_cat option {
+		padding: 0px 20px!important;
+	}
+}
+
+@media screen and (max-width: 675px) {
+	#woocommerce_product_categories-8 select.dropdown_product_cat {
+        width: 100%;
+     }
+}
+
+/*
+    End RAH category menus
+*/
+
+
+.woocommerce-loop-product__title {
+    text-transform: none;
+    text-align: center;
+    font-s: 10pt;
+    font-size: 15pt;
+    /* margin-top: 5px; */
+    padding: 5px;
+}
+
+.wrapper .products-container .home-products .product-row .product-detail p {
+  display: none;
+}
+
+.wrapper-product-page .product_cat .products li.type-product p,
+.shop_page .products li.type-product p,
+.wrapper-sidebar aside.sidebar .product-detail p, .related.products ul.products li.type-product p   {
+  display: none;
+}
+
+ul.products li.product,
+.wrapper .products-container .product-detail,
+.wrapper-sidebar aside.sidebar .product-detail {
+  background: none!important;
+}
+
+
+/* Reviews */
+
+
+.product .summary div[itemprop=offers] {
+  display: block;
+  width: 100%;
+}
+
+.product .summary .woocommerce-product-rating {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.product .summary .woocommerce-product-rating .star-rating, .product .summary .woocommerce-product-rating .woocommerce-review-link {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.product .summary .woocommerce-product-rating .star-rating {
+	width:100px;
+}
+
+.product .summary .woocommerce-product-rating .woocommerce-review-link {
+  font-weight: 700;
+  font-size: .75em;
+  text-transform: uppercase;
+  color: #002e6d;
+}
+
+.products a.woocommerce-LoopProduct-link .star-rating:before {
+  color: rgba(139,110,74,.7);
+}
+
+.products a.woocommerce-LoopProduct-link .star-rating:before, .products a.woocommerce-LoopProduct-link .star-rating span:before {
+  margin: 0 auto;
+  letter-spacing: 2px;
+}
+
+.products a.woocommerce-LoopProduct-link .star-rating {
+	margin: 0 auto;
+	width:102px;
+}
+
+.products a.woocommerce-LoopProduct-link .star-rating span {
+	width:auto!important;
+}
+
+
+#reviews {
+  width: 100%;
+  margin-top: 30px;
+  background: rgba(139,110,74,.05);
+  padding: 30px;
+}
+
+#reviews h2 {
+  font-size: 1.3em;
+  color: #002e6d;
+}
+
+#reviews h2.contributions-title {
+  margin-bottom: 15px;
+}
+
+#reviews h3.contributions-form-title {
+  font-size: 1.25em;
+  line-height: 1.5em;
+  margin-bottom: 15px;
+}
+
+#reviews .product-rating {
+  margin-bottom: 20px;
+}
+
+#reviews .product-rating .product-rating-summary h3 {
+  font-size: 1.15em; padding-bottom: 10px;
+}
+
+#reviews .product-rating .product-rating-summary p {
+  padding-bottom: 10px;
+}
+
+#reviews .product-rating .product-rating-details {
+  width: 50%;
+  /* see media query for mobile */
+}
+
+@media only screen and (max-width: 768px){
+
+  #reviews .product-rating .product-rating-details {
+    width: 100%;
+    /* see media query for mobile */
+  }
+
+}
+
+#reviews .product-rating .product-rating-details table {
+  width: 100%;
+  border: none;
+  margin: 0 0 30px 0;
+}
+
+#reviews .product-rating .product-rating-details table tr {
+  display: table-row;
+  vertical-align: inherit;
+  border-color: inherit;
+}
+
+#reviews .product-rating .product-rating-details table td {
+  border: 0;
+  padding: 1px;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+#reviews .product-rating .product-rating-details table td.rating-number {
+  width: 7%;
+  padding: 0.202em 0.5407911001em 0.202em 0em;
+}
+
+#reviews .product-rating .product-rating-details table td.rating-number a {
+  font-style: normal;
+}
+
+#reviews .product-rating .product-rating-details table td.rating-number span.rating-star::before {
+  font-family: FontAwesome;
+  content: '\f005';
+  color: #8b6e4a;
+}
+
+#reviews .product-rating .product-rating-details table td.rating-graph { padding: 1px 5px; background: rgba(139,110,74,0.05);}
+#reviews .product-rating .product-rating-details table td.rating-graph .bar {vertical-align: middle; display: inline-block; margin-top: -2px; height: 1em; width: 1px; background-color: rgba(139,110,74,.7);}
+#reviews .product-rating .product-rating-details table td.rating-count {width: 7%; padding: 0.202em 0.5407911001em; text-align: right;}
+#reviews .contribution-type-selector {display: table; width: 100%; margin: 1em 0 0 0;}
+#reviews .contribution-type-selector a {display: inline-block; margin-right: 1em; padding: 0.5407911001em 0; font-size: .85em; font-style: normal; text-transform: uppercase;}
+#reviews .contribution-type-selector a.active {border-bottom: 0.4em solid rgba(139,110,74, .1);}
+#reviews .contribution-form-wrapper form {margin-bottom: 1.618em; display: block; margin-top: 0em;}
+#reviews .contribution-form-wrapper fieldset {margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline;}
+#reviews .form-contribution {}
+#reviews .form-contribution #review_rating_field label {display: inline-block;}
+#reviews .star-rating-selector > label:first-child {display: block !important;}
+#reviews .star-rating-selector fieldset:after {clear: both;}
+#reviews .form-contribution #review_rating_field fieldset {float: left;}
+#reviews .form-contribution #review_rating_field fieldset label {display: inline-block; float: right;}
+#reviews .form-contribution #review_rating_field fieldset label:after {display: inline-block; float: right;}
+#reviews .form-contribution .form-row {clear: both!important;}
+#reviews .form-contribution .form-row {float: none; width: 100%;}
+#reviews .form-contribution #review_title_field label,
+#reviews .form-contribution #review_comment_field label,
+#reviews .form-contribution #review_attachment_type_field label,
+#reviews .form-contribution #review_attachment_url_field label,
+#reviews .form-contribution #author_field label,
+#reviews .form-contribution #email_field label {
+    display: block;
+    font-size: .85em;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+#reviews #comments .contributions-filter {
+  width: 100%;
+}
+
+#reviews #comments .form-row select {
+  font-family: "Open Sans",sans-serif ;
+  font-size: .85em;
+  line-height: 1.5em;
+  width: 100%;
+  height: 40px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+#reviews #contributions-list h2#contributions-list-title {
+  margin-bottom: 20px;
+}
+
+#reviews #contributions-list .contributions-container ol {
+  padding: 0;
+  margin: 0;
+}
+
+#reviews .form-contribution .attachment-type:not(:checked) input[type="radio"], .woocommerce-page #reviews .form-contribution .attachment-type:not(:checked) input[type="radio"] {
+    display: none;
+}
+
+#reviews .form-contribution .form-row input[type="checkbox"], #reviews .form-contribution .form-row input[type="radio"] {
+    width: auto;
+}
+
+#reviews .form-contribution .form-row button[type="submit"] {
+  font-family: 'Lora', sans-serif;
+  color: #fff;
+  font-size: .9em;
+  font-weight: 700;
+  text-transform: uppercase;
+  border: 0;
+  background: #8b6e4a;
+  padding: 7px 10px;
+  text-align: center;
+}
+
+#reviews .form-contribution .attachment-type:not(:checked) label.checkbox, .woocommerce-page #reviews .form-contribution .attachment-type:not(:checked) label.checkbox {
+    display: inline-block !important;
+    margin-right: 1em;
+    width: 1.5em;
+    overflow: hidden;
+    cursor: pointer;
+    white-space: nowrap;
+    vertical-align: top;
+}
+
+#reviews .form-contribution .attachment-type:not(:checked) label.checkbox:before, .woocommerce-page #reviews .form-contribution .attachment-type:not(:checked) label.checkbox:before {
+  font-family: FontAwesome;
+  display: inline-block;
+  margin-right: 0.5em;
+  font-size: 1.5em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin-bottom: 20px;
+}
+
+#reviews .form-contribution .attachment-type:not(:checked) label[for="review_attachment_type_photo"].checkbox:before, .woocommerce-page #reviews .form-contribution .attachment-type:not(:checked) label[for="review_attachment_type_photo"].checkbox:before {
+  content: '\f083';
+}
+
+#reviews .form-contribution .attachment-type:not(:checked) label[for="review_attachment_type_video"].checkbox:before, .woocommerce-page #reviews .form-contribution .attachment-type:not(:checked) label[for="review_attachment_type_video"].checkbox:before {
+  content: '\f03d';
+}
+
+#reviews .input-text, #reviews input[type=email], #reviews input[type=password], #reviews input[type=search], #reviews input[type=text], #reviews input[type=url], #reviews textarea {
+    padding: 5px 10px;
+    background-color: #fff;
+    color: #43454b;
+    outline: 0;
+    border: 0;
+    -webkit-appearance: none;
+    box-sizing: border-box;
+    font-weight: 400;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.125);
+    margin: 0;
+    font-size: 1em;
+    width: 100%;
+  }
+
+#reviews .form-contribution #review_rating_field .star-label {
+  float: right;
+  font-size: 1em;
+  font-weight: 700;
+  margin-right: 1em;
+  text-transform:
+  uppercase;
+  font-size:.9em;
+}
+
+.star-rating-selector:not(:checked) label.checkbox {
+  float: right;
+  width: 1em;
+  margin-left: 1px;
+  overflow: hidden;
+  white-space: nowrap;
+  cursor: pointer;
+  font-size: 1.5em;
+  line-height: 1em;
+  vertical-align: middle;
+  color: #ddd;
+  position: relative;
+  z-index: 1;
+  text-indent: -9999px;
+}
+
+.contribution-form-wrapper {
+  background: rgba(139,110,74,.05);
+  padding: 20px;
+  margin-bottom: 30px;
+}
+
+.star-rating-selector:not(:checked) label.checkbox:hover, .star-rating-selector:not(:checked) label.checkbox:hover ~ label.checkbox {
+    color: #8b6e4a!important;
+}
+
+.star-rating-selector:not(:checked) input:checked ~ label.checkbox {
+    color: #8b6e4a!important;
+}
+
+#reviews .contributions-filter, .woocommerce-page #reviews .contributions-filter {
+    float: right;
+    text-align: right;
+    white-space: nowrap;
+    display: block;
+}
+
+#reviews #comments ol.commentlist, .woocommerce-page #reviews #comments ol.commentlist {
+    list-style: none;
+}
+
+#reviews .commentlist li .comment_container .comment-text .star-rating {
+    float: right;
+    font-size: .875em;
+    line-height: 1;
+    height: 1em;
+	width:100px;
+}
+
+#reviews .commentlist li .comment_container .comment-text .meta {
+  font-family: 'Open-Sans', sans-serif;
+  font-size: .75em;
+  font-weight: 600;
+  padding-bottom: 10px;
+}
+
+#reviews #comments ol.commentlist li img.avatar, .woocommerce-page #reviews #comments ol.commentlist li img.avatar {
+    width: 2.617924em;
+    height: auto;
+    margin: 0;
+    float: right;
+    border-radius: 3px;
+}
+
+.woocommerce #reviews h3.contribution-title .star-rating, .woocommerce-page #reviews h3.contribution-title .star-rating {
+    float: none;
+    display: inline-block;
+    margin-right: 1em;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    speak: none;
+    font-weight: normal !important;
+}
+
+.star-rating {
+    overflow: hidden;
+    position: relative;
+    height: 1.618em;
+    line-height: 1.618;
+    font-size: 1em;
+    width: 5.3em;
+    font-family: FontAwesome;
+    font-weight: 400;
+}
+
+.star-rating span {
+    overflow: hidden;
+    float: left;
+    top: 0;
+    left: 0;
+    position: absolute;
+    padding-top: 1.5em;
+}
+
+/*
+.star-rating:before {
+    content: "\f005\f005\f005\f005\f005";
+    opacity: .25;
+    float: left;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+*/
+
+.star-rating span:before {
+    content: "\f005\f005\f005\f005\f005";
+    top: 0;
+    position: absolute;
+    left: 0;
+}
+
+.star-rating span:before {
+    color: #FFBC34!important;
+}
+
+.woocommerce #reviews .form-contribution:after, .woocommerce-page #reviews .form-contribution:after {
+    clear: both;
+}
+
+.woocommerce #reviews .form-contribution:before, .woocommerce #reviews .form-contribution:after, .woocommerce-page #reviews .form-contribution:before, .woocommerce-page #reviews .form-contribution:after {
+    content: " ";
+    display: table;
+}
+
+/* Blog Post */
+
+
+
+@media only screen and (max-width: 900px) {
+	img[class*=align], img[class*=wp-image-], img[class*=wp-post-image] {
+		width: 100% !important;
+		height: auto;
+	}
+}
+
+/* Scss Overlay */
+
+.subs-popup {
+	display: none;
+	background-color: rgba(0,0,0,0.85);
+	position: fixed;
+	z-index: 10000;
+	height: 100%;
+	width: 100%;
+	overflow: scroll;
+}
+
+#email-wrapper {
+	position: relative;
+	width: 550px;
+	height: auto;
+	margin: 200px auto;
+	box-shadow: 0px 0px 30px 5px rgb(0,0,0);
+	background: #FFFFFF;
+}
+
+@media only screen and (max-width: 610px) {
+	#email-wrapper {
+		width: 85%;
+		margin: 50px auto;
+	}
+}
+
+.email-header {
+	display: block;
+	width: 100%;
+	height: auto;
+	padding: 40px;
+	background: #002e6d url(../images/email-bkgnd.jpg);
+}
+
+		
+#email-wrapper .email-header h1 {
+	font-family: Lora,TimesNewRoman,"Times New Roman",Times,serif;
+	font-weight: 700;
+	font-size: 2em;
+	line-height: 1em;
+	letter-spacing: 1px;
+	// text-stroke: 1px #FFFFFF;
+	color: #FFFFFF;
+	text-shadow: 3px 3px 0 rgba(139, 110, 75, 1);
+	margin: 0px 0px 10px 0px;
+	text-transform: uppercase;
+	width: 100%;
+}
+		
+#email-wrapper .email-header p {
+	color: #FFFFFF;
+	padding-bottom: 0px; 
+}
+		
+#email-wrapper .email-header .email-close i {
+	font-size: 1.5em;
+	line-height: .9em;
+	color: #FFFFFF;
+}
+
+#email-wrapper .email-header .email-close {
+	display: block;
+	height: 27px;
+	width: 27px;
+	position: absolute;
+	top: -7px;
+	right: -7px;
+	text-align: center;
+	cursor: pointer;
+	z-index: 999;
+	border: 3px solid #8b6e4b;
+	border-radius: 50px;
+}
+
+.email-header .email-close:active {
+	top: -7px;
+	right: -7px;
+}
+
+	
+#email-wrapper #mc_embed_signup {
+	clear:left; 
+	position: relative;
+	font-family: Lora,TimesNewRoman,"Times New Roman",Times,serif;
+	padding: 40px;
+}
+
+#mc_embed_signup #mc_embed_signup .mc-field-group.top {
+	margin-top: -20px;
+}
+
+#mc_embed_signup #mc_embed_signup .mc-field-group {
+	float: left;
+}
+
+#email-wrapper #mc_embed_signup #mc_embed_signup .mc-field-group label {
+	text-transform: uppercase;
+	font-size: .8em;
+	font-weight: 700;
+}
+	
+#email-wrapper #mc_embed_signup #mc-embedded-subscribe {
+	background: #002e6d;
+	font-family: Lora,TimesNewRoman,"Times New Roman",Times,serif;
+	border: 3px solid #8b6e4b;
+	text-transform: uppercase;
+	font-weight: 700;
+	border-radius: 0px;
+	padding: 10px 30px;
+	line-height: 1em;
+	height: auto;
+	-webkit-appearance: none;
+}
+	
+#mc_embed_signup #mc-embedded-subscribe-form {
+	margin: 0px;
+	padding: 0px;
+}
+	
+#email-wrapper .content {
+	width: 500px;
+	margin: auto;
+	padding-top: 50px;
+	font-family: Calibri, Arial, sans-serif;
+	color: #FFF;
+}
+
+/* Home Page Alert */
+
+#alert {display: block; background: #8b6e4b;}
+#alert .alert-container {max-width: 1200px; padding: 30px; margin: 0 auto; text-align: center; }
+#alert .alert-container h3 {
+	font-size: 1.2em; 
+	text-shadow: 2px 2px 0 rgba(0, 46, 109, 1);
+	color: #FFFFFF; 
+	font-weight: 700; 
+	text-transform: uppercase; 
+	margin-bottom:30px;
+}
+#alert .alert-container a {background:#002e6d; text-transform: uppercase; font-weight: 700; padding: 7px 30px; text-align: center;  color: #FFFFFF;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

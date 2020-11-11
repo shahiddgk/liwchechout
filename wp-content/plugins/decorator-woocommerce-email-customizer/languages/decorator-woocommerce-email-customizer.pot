@@ -1,0 +1,454 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Decorator\n"
+"POT-Creation-Date: 2017-05-08 15:49+0300\n"
+"PO-Revision-Date: 2016-12-13 00:41+0200\n"
+"Last-Translator: \n"
+"Language-Team: WebToffee <info@webtoffee.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.11\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: decorator.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: decorator.php:209
+#, php-format
+msgid ""
+"<strong>Decorator</strong> requires PHP %s or later. Please update PHP on "
+"your server to use this plugin."
+msgstr ""
+
+#: decorator.php:220
+#, php-format
+msgid ""
+"<strong>Decorator</strong> requires WordPress version %s or later. Please "
+"update WordPress to use this plugin."
+msgstr ""
+
+#: decorator.php:231
+#, php-format
+msgid ""
+"<strong>Decorator</strong> requires WooCommerce to be active. You can "
+"download WooCommerce %s."
+msgstr ""
+
+#: decorator.php:231
+msgid "here"
+msgstr ""
+
+#: decorator.php:242
+#, php-format
+msgid ""
+"<strong>Decorator</strong> requires WooCommerce version %s or later. Please "
+"update WooCommerce to use this plugin."
+msgstr ""
+
+#: decorator.php:255 includes/classes/rp-decorator-wc.class.php:163
+#: includes/classes/rp-decorator-wc.class.php:164
+msgid "Open Decorator"
+msgstr ""
+
+#: includes/classes/lazy/rp-decorator-mockup-order.class.php:53
+#, php-format
+msgctxt "full name"
+msgid "%1$s %2$s"
+msgstr ""
+
+#: includes/classes/lazy/rp-decorator-mockup-order.class.php:181
+msgid "Subtotal:"
+msgstr ""
+
+#: includes/classes/lazy/rp-decorator-mockup-order.class.php:186
+msgid "Shipping:"
+msgstr ""
+
+#: includes/classes/lazy/rp-decorator-mockup-order.class.php:187
+#, php-format
+msgid "&nbsp;<small>%svia %s</small>"
+msgstr ""
+
+#: includes/classes/lazy/rp-decorator-mockup-order.class.php:191
+msgid "Payment Method:"
+msgstr ""
+
+#: includes/classes/lazy/rp-decorator-mockup-order.class.php:196
+msgid "Total:"
+msgstr ""
+
+#: includes/classes/rp-decorator-customizer.class.php:135
+msgid "WooCommerce Emails"
+msgstr ""
+
+#: includes/classes/rp-decorator-customizer.class.php:247
+msgid "Reset"
+msgstr ""
+
+#: includes/classes/rp-decorator-customizer.class.php:248
+msgid ""
+"Are you sure you want to reset all changes made to your WooCommerce emails?"
+msgstr ""
+
+#: includes/classes/rp-decorator-customizer.class.php:249
+msgid ""
+"<p>Use native WordPress Customizer to make WooCommerce emails match your "
+"brand.</p>"
+msgstr ""
+
+#: includes/classes/rp-decorator-customizer.class.php:249
+#, php-format
+msgid "<a href=\"%s\">Decorator</a> plugin by <a href=\"%s\">WebToffee</a>."
+msgstr ""
+
+#: includes/classes/rp-decorator-settings.class.php:53
+msgid "Header"
+msgstr ""
+
+#: includes/classes/rp-decorator-settings.class.php:59
+msgid "Footer"
+msgstr ""
+
+#: includes/classes/rp-decorator-settings.class.php:65
+msgid "Content"
+msgstr ""
+
+#: includes/classes/rp-decorator-settings.class.php:71
+msgid "Other"
+msgstr ""
+
+#: includes/classes/rp-decorator-settings.class.php:95
+msgid "Container"
+msgstr ""
+
+#: includes/classes/rp-decorator-settings.class.php:101
+msgid "Header Style"
+msgstr ""
+
+#: includes/classes/rp-decorator-settings.class.php:108
+msgid "Header Image"
+msgstr ""
+
+#: includes/classes/rp-decorator-settings.class.php:115
+msgid "Heading"
+msgstr ""
+
+#: includes/classes/rp-decorator-settings.class.php:122
+msgid "Footer Style"
+msgstr ""
+
+#: includes/classes/rp-decorator-settings.class.php:129
+msgid "Footer Content"
+msgstr ""
+
+#: includes/classes/rp-decorator-settings.class.php:136
+msgid "Content Container"
+msgstr ""
+
+#: includes/classes/rp-decorator-settings.class.php:143
+msgid "Text Style"
+msgstr ""
+
+#: includes/classes/rp-decorator-settings.class.php:150
+msgid "Heading 1"
+msgstr ""
+
+#: includes/classes/rp-decorator-settings.class.php:157
+msgid "Heading 2"
+msgstr ""
+
+#: includes/classes/rp-decorator-settings.class.php:164
+msgid "Heading 3"
+msgstr ""
+
+#: includes/classes/rp-decorator-settings.class.php:171
+msgid "Heading 4"
+msgstr ""
+
+#: includes/classes/rp-decorator-settings.class.php:178
+msgid "Heading 5"
+msgstr ""
+
+#: includes/classes/rp-decorator-settings.class.php:185
+msgid "Heading 6"
+msgstr ""
+
+#: includes/classes/rp-decorator-settings.class.php:192
+msgid "Custom Styles"
+msgstr ""
+
+#: includes/classes/rp-decorator-settings.class.php:199
+msgid "Order Items"
+msgstr ""
+
+#: includes/classes/rp-decorator-settings.class.php:224
+#: includes/classes/rp-decorator-settings.class.php:274
+#: includes/classes/rp-decorator-settings.class.php:365
+#: includes/classes/rp-decorator-settings.class.php:1254
+msgid "Background color"
+msgstr ""
+
+#: includes/classes/rp-decorator-settings.class.php:237
+#: includes/classes/rp-decorator-settings.class.php:287
+#: includes/classes/rp-decorator-settings.class.php:533
+#: includes/classes/rp-decorator-settings.class.php:1267
+msgid "Padding"
+msgstr ""
+
+#: includes/classes/rp-decorator-settings.class.php:254
+msgid "Container width"
+msgstr ""
+
+#: includes/classes/rp-decorator-settings.class.php:305
+#: includes/classes/rp-decorator-settings.class.php:472
+#: includes/classes/rp-decorator-settings.class.php:563
+#: includes/classes/rp-decorator-settings.class.php:635
+#: includes/classes/rp-decorator-settings.class.php:736
+#: includes/classes/rp-decorator-settings.class.php:837
+#: includes/classes/rp-decorator-settings.class.php:938
+#: includes/classes/rp-decorator-settings.class.php:1039
+#: includes/classes/rp-decorator-settings.class.php:1140
+msgid "Font size"
+msgstr ""
+
+#: includes/classes/rp-decorator-settings.class.php:323
+#: includes/classes/rp-decorator-settings.class.php:489
+#: includes/classes/rp-decorator-settings.class.php:580
+#: includes/classes/rp-decorator-settings.class.php:652
+#: includes/classes/rp-decorator-settings.class.php:753
+#: includes/classes/rp-decorator-settings.class.php:854
+#: includes/classes/rp-decorator-settings.class.php:955
+#: includes/classes/rp-decorator-settings.class.php:1056
+#: includes/classes/rp-decorator-settings.class.php:1157
+msgid "Font family"
+msgstr ""
+
+#: includes/classes/rp-decorator-settings.class.php:338
+#: includes/classes/rp-decorator-settings.class.php:520
+#: includes/classes/rp-decorator-settings.class.php:610
+#: includes/classes/rp-decorator-settings.class.php:682
+#: includes/classes/rp-decorator-settings.class.php:783
+#: includes/classes/rp-decorator-settings.class.php:884
+#: includes/classes/rp-decorator-settings.class.php:985
+#: includes/classes/rp-decorator-settings.class.php:1086
+#: includes/classes/rp-decorator-settings.class.php:1187
+msgid "Text color"
+msgstr ""
+
+#: includes/classes/rp-decorator-settings.class.php:352
+msgid "Link color"
+msgstr ""
+
+#: includes/classes/rp-decorator-settings.class.php:377
+#: includes/classes/rp-decorator-settings.class.php:550
+msgid "Text align"
+msgstr ""
+
+#: includes/classes/rp-decorator-settings.class.php:390
+msgid "Padding top/bottom"
+msgstr ""
+
+#: includes/classes/rp-decorator-settings.class.php:407
+msgid "Padding left/right"
+msgstr ""
+
+#: includes/classes/rp-decorator-settings.class.php:424
+msgid "Header image"
+msgstr ""
+
+#: includes/classes/rp-decorator-settings.class.php:437
+msgid "Border radius"
+msgstr ""
+
+#: includes/classes/rp-decorator-settings.class.php:455
+msgid "Shadow"
+msgstr ""
+
+#: includes/classes/rp-decorator-settings.class.php:502
+#: includes/classes/rp-decorator-settings.class.php:593
+#: includes/classes/rp-decorator-settings.class.php:665
+#: includes/classes/rp-decorator-settings.class.php:766
+#: includes/classes/rp-decorator-settings.class.php:867
+#: includes/classes/rp-decorator-settings.class.php:968
+#: includes/classes/rp-decorator-settings.class.php:1069
+#: includes/classes/rp-decorator-settings.class.php:1170
+msgid "Font weight"
+msgstr ""
+
+#: includes/classes/rp-decorator-settings.class.php:622
+msgid "Footer text"
+msgstr ""
+
+#: includes/classes/rp-decorator-settings.class.php:694
+#: includes/classes/rp-decorator-settings.class.php:795
+#: includes/classes/rp-decorator-settings.class.php:896
+#: includes/classes/rp-decorator-settings.class.php:997
+#: includes/classes/rp-decorator-settings.class.php:1098
+#: includes/classes/rp-decorator-settings.class.php:1199
+msgid "Separator style"
+msgstr ""
+
+#: includes/classes/rp-decorator-settings.class.php:707
+#: includes/classes/rp-decorator-settings.class.php:808
+#: includes/classes/rp-decorator-settings.class.php:909
+#: includes/classes/rp-decorator-settings.class.php:1010
+#: includes/classes/rp-decorator-settings.class.php:1111
+#: includes/classes/rp-decorator-settings.class.php:1212
+msgid "Separator width"
+msgstr ""
+
+#: includes/classes/rp-decorator-settings.class.php:724
+#: includes/classes/rp-decorator-settings.class.php:825
+#: includes/classes/rp-decorator-settings.class.php:926
+#: includes/classes/rp-decorator-settings.class.php:1027
+#: includes/classes/rp-decorator-settings.class.php:1128
+#: includes/classes/rp-decorator-settings.class.php:1229
+msgid "Separator color"
+msgstr ""
+
+#: includes/classes/rp-decorator-settings.class.php:1241
+msgid "Custom CSS"
+msgstr ""
+
+#: includes/classes/rp-decorator-settings.class.php:1287
+msgid "Border width"
+msgstr ""
+
+#: includes/classes/rp-decorator-settings.class.php:1308
+msgid "Border color"
+msgstr ""
+
+#: includes/classes/rp-decorator-settings.class.php:1325
+msgid "Totals separator width"
+msgstr ""
+
+#: includes/classes/rp-decorator-settings.class.php:1343
+msgid "Totals separator color"
+msgstr ""
+
+#: includes/classes/rp-decorator-settings.class.php:1477
+msgid "none"
+msgstr ""
+
+#: includes/classes/rp-decorator-settings.class.php:1478
+msgid "hidden"
+msgstr ""
+
+#: includes/classes/rp-decorator-settings.class.php:1479
+msgid "dotted"
+msgstr ""
+
+#: includes/classes/rp-decorator-settings.class.php:1480
+msgid "dashed"
+msgstr ""
+
+#: includes/classes/rp-decorator-settings.class.php:1481
+msgid "solid"
+msgstr ""
+
+#: includes/classes/rp-decorator-settings.class.php:1482
+msgid "double"
+msgstr ""
+
+#: includes/classes/rp-decorator-settings.class.php:1483
+msgid "groove"
+msgstr ""
+
+#: includes/classes/rp-decorator-settings.class.php:1484
+msgid "ridge"
+msgstr ""
+
+#: includes/classes/rp-decorator-settings.class.php:1485
+msgid "inset"
+msgstr ""
+
+#: includes/classes/rp-decorator-settings.class.php:1486
+msgid "outset"
+msgstr ""
+
+#: includes/classes/rp-decorator-settings.class.php:1499
+msgid "left"
+msgstr ""
+
+#: includes/classes/rp-decorator-settings.class.php:1500
+msgid "center"
+msgstr ""
+
+#: includes/classes/rp-decorator-settings.class.php:1501
+msgid "right"
+msgstr ""
+
+#: includes/classes/rp-decorator-settings.class.php:1502
+msgid "justify"
+msgstr ""
+
+#: includes/classes/rp-decorator-settings.class.php:1515
+msgid "Arial"
+msgstr ""
+
+#: includes/classes/rp-decorator-settings.class.php:1516
+msgid "Arial Black"
+msgstr ""
+
+#: includes/classes/rp-decorator-settings.class.php:1517
+msgid "Courier New"
+msgstr ""
+
+#: includes/classes/rp-decorator-settings.class.php:1519
+msgid "Helvetica"
+msgstr ""
+
+#: includes/classes/rp-decorator-settings.class.php:1520
+msgid "Impact"
+msgstr ""
+
+#: includes/classes/rp-decorator-settings.class.php:1521
+msgid "Lucida"
+msgstr ""
+
+#: includes/classes/rp-decorator-settings.class.php:1522
+msgid "Palatino"
+msgstr ""
+
+#: includes/classes/rp-decorator-wc.class.php:129 includes/views/preview.php:30
+msgid "Decorator"
+msgstr ""
+
+#: includes/classes/rp-decorator-wc.class.php:159
+msgid "Customize WooCommerce Emails"
+msgstr ""
+
+#: includes/classes/rp-decorator-wc.class.php:167
+#, php-format
+msgid ""
+"Make WooCommerce emails match your brand. <a href=\"%s\">Decorator</a> "
+"plugin by <a href=\"%s\">WebToffee</a>."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Decorator - WooCommerce Email Customizer"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://www.webtoffee.com/decorator"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Use native WordPress Customizer to make WooCommerce emails match your brand"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "WebToffee"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://www.webtoffee.com"
+msgstr ""

@@ -1,0 +1,26 @@
+.option-box { 
+	border:1px solid silver; 
+	float:left; 
+	padding:1%; 
+	width:30%; 
+	border-radius:3px; 
+	margin-right:1%; 
+}
+.option-box input[type="text"] { 
+	width:99%; 
+	height:28px;
+}
+.option-box ul { list-style:none; }
+.option-box ul li { display:inline-block; text-align:center; padding:0 4px; }
+
+#login h1 a { 
+	background-image: url("http://intuitodev.com/wild/wp-content/uploads/2016/07/static1.squarespace-98x300.jpg") !important; 
+	background-size: auto;
+	height:303px;
+	width:316px;
+
+}
+#wp-admin-bar-wp-logo>.ab-item .ab-icon { background-image:url('images/intuito-square-logo-20px.png')!important; background-position:0 0!important;}
+
+.login { background-image:url('images/login-bg.jpg'); background-size:cover; }
+.login #nav a, #backtoblog a { color:#fff!important; }

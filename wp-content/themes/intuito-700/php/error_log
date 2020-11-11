@@ -1,0 +1,1 @@
+[27-Dec-2014 23:30:31 UTC] PHP Fatal error:  Call to undefined function update_option() in /home/mulkilteo/public_html/wp-content/themes/intuito-700/php/intuito-700-options.php on line 4

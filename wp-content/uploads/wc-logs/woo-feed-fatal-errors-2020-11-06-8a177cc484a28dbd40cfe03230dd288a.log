@@ -1,0 +1,20 @@
+2020-11-06T07:31:30+00:00 CRITICAL Uncaught Error: Call to a member function get_cart() on null in /nas/content/live/liwcheckout/wp-content/themes/intuito-700/functions.php:863
+Stack trace:
+#0 /nas/content/live/liwcheckout/wp-content/themes/intuito-700/functions.php(905): as_get_cart_data()
+#1 /nas/content/live/liwcheckout/wp-includes/class-wp-hook.php(287): prefix_ajax_as_add_to_cart('')
+#2 /nas/content/live/liwcheckout/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#3 /nas/content/live/liwcheckout/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#4 /nas/content/live/liwcheckout/wp-admin/admin-ajax.php(191): do_action('wp_ajax_nopriv_...')
+#5 {main}
+  thrown in /nas/content/live/liwcheckout/wp-content/themes/intuito-700/functions.php on line 863
+
+2020-11-06T11:22:00+00:00 CRITICAL Uncaught Error: Call to a member function get_tax_class() on null in /nas/content/live/liwcheckout/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php:223
+Stack trace:
+#0 /nas/content/live/liwcheckout/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(649): WC_Cart_Totals->get_items_from_cart()
+#1 /nas/content/live/liwcheckout/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(141): WC_Cart_Totals->calculate_item_totals()
+#2 /nas/content/live/liwcheckout/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php(132): WC_Cart_Totals->calculate()
+#3 /nas/content/live/liwcheckout/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1359): WC_Cart_Totals->__construct(Object(WC_Cart))
+#4 /nas/content/live/liwcheckout/wp-content/plugins/woocommerce/includes/class-wc-cart.php(1318): WC_Cart->calculate_totals()
+#5 /nas/content/live/liwcheckout/wp-content/themes/intuito-700/functions.php(938): WC_Cart->set_quantity('91fd7b300a09c5d...', 1)
+#6 /nas/content/live/liwch in /nas/content/live/liwcheckout/wp-content/plugins/woocommerce/includes/class-wc-cart-totals.php on line 223
+

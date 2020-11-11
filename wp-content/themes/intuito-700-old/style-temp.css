@@ -1,0 +1,25 @@
+#responsive-menu-pro-button { transform:translate(0px)!important; }
+#page-1968 .header { height:131px!important; }
+.header .inner .header-left .logo img { height: 120px; }
+.inactive_message_container h2 { margin-top:40px!important; }
+.club-home-left { width:45%!important; }
+.club-home-right { width:50%!important; }
+.signup-submit { text-align:center; }
+.signup-submit input { width:200px; }
+.club-member .shipping { display:none!important; }
+
+#page-1498 h1 { margin:180px 0 40px 0!important; } 
+.inactive_message_container { margin:80px 0 0 0!important; }
+#page-1498 .content-area { margin:180px 20px 0 20px; }
+
+.club-name { font-family: "Lora", TimesNewRoman, "Times New Roman", Times, serif; }
+.club-name a { color:white!important; }
+.wrapper .single-product-page { padding-top: 200px!important; margin-top:0!important; }
+.product-percent-discount, .product-discount { display:none!important; }
+.woocommerce-shipping-fields, .shipping, .addresses .col-2 { display:none!important; }
+
+@media screen and (max-width: 600px) {
+    #wpadminbar { position:fixed!important; }
+    .header .inner .header-right .club-name { right:10px; }
+    .header .inner .header-right { position:initial; }
+}

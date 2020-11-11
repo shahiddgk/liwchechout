@@ -1,0 +1,151 @@
+2020-11-10T00:24:27+00:00 INFO queue: Process started for 5 items.
+2020-11-10T00:24:37+00:00 INFO queue: Process completed.
+2020-11-10T01:44:19+00:00 INFO events: Process started for 2 items.
+2020-11-10T01:44:20+00:00 INFO queue: Process started for 7 items.
+2020-11-10T01:44:21+00:00 INFO events: Process completed.
+2020-11-10T01:44:30+00:00 INFO queue: Process completed.
+2020-11-10T01:57:40+00:00 INFO queue: Process started for 1 items.
+2020-11-10T01:57:42+00:00 INFO queue: Process completed.
+2020-11-10T02:49:59+00:00 INFO queue: Process started for 1 items.
+2020-11-10T02:50:01+00:00 INFO queue: Process completed.
+2020-11-10T03:49:05+00:00 INFO queue: Process started for 2 items.
+2020-11-10T03:49:06+00:00 INFO events: Process started for 2 items.
+2020-11-10T03:49:07+00:00 INFO events: Process completed.
+2020-11-10T03:49:08+00:00 INFO queue: Process completed.
+2020-11-10T04:02:02+00:00 INFO queue: Process started for 2 items.
+2020-11-10T04:02:06+00:00 INFO queue: Process completed.
+2020-11-10T05:04:46+00:00 INFO abandoned_carts: Process started for 1 items.
+2020-11-10T05:04:49+00:00 INFO abandoned_carts: Process completed.
+2020-11-10T05:04:50+00:00 INFO queue: Process started for 2 items.
+2020-11-10T05:04:52+00:00 INFO queue: Process completed.
+2020-11-10T05:43:51+00:00 INFO queue: Process started for 1 items.
+2020-11-10T05:43:53+00:00 INFO queue: Process completed.
+2020-11-10T12:26:10+00:00 INFO abandoned_carts: Process started for 1 items.
+2020-11-10T12:26:11+00:00 INFO queue: Process started for 2 items.
+2020-11-10T12:26:14+00:00 INFO abandoned_carts: Process completed.
+2020-11-10T12:26:17+00:00 INFO queue: Process completed.
+2020-11-10T13:08:13+00:00 INFO events: Process started for 2 items.
+2020-11-10T13:08:17+00:00 INFO events: Process completed.
+2020-11-10T13:46:21+00:00 INFO queue: Process started for 5 items.
+2020-11-10T13:46:36+00:00 INFO queue: Process completed.
+2020-11-10T14:05:53+00:00 INFO queue: Process started for 1 items.
+2020-11-10T14:06:00+00:00 INFO queue: Process completed.
+2020-11-10T14:29:43+00:00 INFO queue: Process started for 1 items.
+2020-11-10T14:29:46+00:00 INFO queue: Process completed.
+2020-11-10T14:41:56+00:00 INFO queue: Process started for 1 items.
+2020-11-10T14:41:59+00:00 INFO queue: Process completed.
+2020-11-10T15:02:57+00:00 INFO abandoned_carts: Process started for 1 items.
+2020-11-10T15:02:58+00:00 INFO events: Process started for 2 items.
+2020-11-10T15:02:58+00:00 INFO abandoned_carts: Process completed.
+2020-11-10T15:02:59+00:00 INFO events: Process completed.
+2020-11-10T15:02:59+00:00 INFO queue: Process started for 1 items.
+2020-11-10T15:03:02+00:00 INFO queue: Process completed.
+2020-11-10T16:27:52+00:00 INFO abandoned_carts: Process started for 1 items.
+2020-11-10T16:27:53+00:00 INFO queue: Process started for 1 items.
+2020-11-10T16:27:53+00:00 INFO abandoned_carts: Process completed.
+2020-11-10T16:27:56+00:00 INFO queue: Process completed.
+2020-11-10T17:42:09+00:00 INFO queue: Process started for 1 items.
+2020-11-10T17:42:11+00:00 INFO queue: Process completed.
+2020-11-10T17:46:12+00:00 INFO queue: Process started for 1 items.
+2020-11-10T17:46:14+00:00 INFO queue: Process completed.
+2020-11-10T17:59:20+00:00 INFO queue: Process started for 1 items.
+2020-11-10T17:59:23+00:00 INFO queue: Process completed.
+2020-11-10T18:05:04+00:00 INFO abandoned_carts: Process started for 1 items.
+2020-11-10T18:05:05+00:00 INFO abandoned_carts: Process completed.
+2020-11-10T18:06:03+00:00 INFO queue: Process started for 1 items.
+2020-11-10T18:06:05+00:00 INFO queue: Process completed.
+2020-11-10T18:39:39+00:00 INFO queue: Process started for 2 items.
+2020-11-10T18:39:43+00:00 INFO queue: Process completed.
+2020-11-10T18:40:58+00:00 INFO events: Process started for 2 items.
+2020-11-10T18:40:59+00:00 INFO events: Process completed.
+2020-11-10T19:08:11+00:00 INFO queue: Process started for 1 items.
+2020-11-10T19:08:13+00:00 INFO queue: Process completed.
+2020-11-10T19:11:04+00:00 INFO abandoned_carts: Process started for 1 items.
+2020-11-10T19:11:05+00:00 INFO abandoned_carts: Process completed.
+2020-11-10T19:35:22+00:00 INFO queue: Process started for 1 items.
+2020-11-10T19:35:24+00:00 INFO queue: Process completed.
+2020-11-10T20:01:48+00:00 INFO events: Process started for 1 items.
+2020-11-10T20:01:50+00:00 INFO events: Process completed.
+2020-11-10T20:01:52+00:00 INFO workflows: Process started for 50 items.
+2020-11-10T20:01:54+00:00 INFO workflows: Process started for 50 items.
+2020-11-10T20:01:54+00:00 INFO workflows: Process started for 50 items.
+2020-11-10T20:01:55+00:00 INFO workflows: Process started for 50 items.
+2020-11-10T20:01:57+00:00 INFO workflows: Process started for 50 items.
+2020-11-10T20:01:58+00:00 INFO workflows: Process started for 50 items.
+2020-11-10T20:01:59+00:00 INFO workflows: Process started for 50 items.
+2020-11-10T20:01:59+00:00 INFO workflows: Process started for 50 items.
+2020-11-10T20:02:01+00:00 INFO workflows: Process started for 50 items.
+2020-11-10T20:02:02+00:00 INFO workflows: Process started for 50 items.
+2020-11-10T20:02:03+00:00 INFO workflows: Process started for 50 items.
+2020-11-10T20:02:04+00:00 INFO workflows: Process started for 50 items.
+2020-11-10T20:02:05+00:00 INFO workflows: Process started for 50 items.
+2020-11-10T20:02:07+00:00 INFO workflows: Process started for 50 items.
+2020-11-10T20:02:08+00:00 INFO workflows: Process started for 50 items.
+2020-11-10T20:02:10+00:00 INFO workflows: Process started for 50 items.
+2020-11-10T20:02:11+00:00 INFO workflows: Process started for 50 items.
+2020-11-10T20:02:12+00:00 INFO workflows: Process started for 50 items.
+2020-11-10T20:02:13+00:00 INFO workflows: Process started for 50 items.
+2020-11-10T20:02:14+00:00 INFO workflows: Process started for 50 items.
+2020-11-10T20:02:15+00:00 INFO workflows: Process started for 50 items.
+2020-11-10T20:02:16+00:00 INFO workflows: Process started for 50 items.
+2020-11-10T20:02:17+00:00 INFO workflows: Process started for 50 items.
+2020-11-10T20:02:18+00:00 INFO workflows: Process started for 50 items.
+2020-11-10T20:02:19+00:00 INFO workflows: Process started for 50 items.
+2020-11-10T20:02:20+00:00 INFO workflows: Process started for 50 items.
+2020-11-10T20:02:21+00:00 INFO workflows: Process started for 50 items.
+2020-11-10T20:02:22+00:00 INFO workflows: Process started for 50 items.
+2020-11-10T20:02:23+00:00 INFO workflows: Process started for 50 items.
+2020-11-10T20:02:24+00:00 INFO workflows: Process started for 50 items.
+2020-11-10T20:02:25+00:00 INFO workflows: Process started for 50 items.
+2020-11-10T20:02:26+00:00 INFO workflows: Process started for 50 items.
+2020-11-10T20:02:27+00:00 INFO workflows: Process started for 50 items.
+2020-11-10T20:02:29+00:00 INFO workflows: Process started for 50 items.
+2020-11-10T20:02:30+00:00 INFO workflows: Process started for 50 items.
+2020-11-10T20:02:31+00:00 INFO workflows: Process started for 50 items.
+2020-11-10T20:02:32+00:00 INFO workflows: Process started for 50 items.
+2020-11-10T20:02:33+00:00 INFO workflows: Process started for 50 items.
+2020-11-10T20:02:34+00:00 INFO workflows: Process started for 50 items.
+2020-11-10T20:02:36+00:00 INFO workflows: Process started for 50 items.
+2020-11-10T20:02:37+00:00 INFO workflows: Process started for 50 items.
+2020-11-10T20:02:39+00:00 INFO workflows: Process started for 50 items.
+2020-11-10T20:02:40+00:00 INFO workflows: Process started for 50 items.
+2020-11-10T20:02:41+00:00 INFO workflows: Process started for 50 items.
+2020-11-10T20:02:42+00:00 INFO workflows: Process started for 50 items.
+2020-11-10T20:02:42+00:00 INFO workflows: Process started for 50 items.
+2020-11-10T20:02:43+00:00 INFO workflows: Process started for 50 items.
+2020-11-10T20:02:45+00:00 INFO workflows: Process started for 50 items.
+2020-11-10T20:02:46+00:00 INFO workflows: Process started for 50 items.
+2020-11-10T20:02:46+00:00 INFO workflows: Process started for 50 items.
+2020-11-10T20:02:48+00:00 INFO workflows: Process started for 50 items.
+2020-11-10T20:02:49+00:00 INFO workflows: Process started for 50 items.
+2020-11-10T20:02:50+00:00 INFO workflows: Process started for 50 items.
+2020-11-10T20:02:51+00:00 INFO workflows: Process started for 50 items.
+2020-11-10T20:02:52+00:00 INFO workflows: Process started for 50 items.
+2020-11-10T20:02:53+00:00 INFO workflows: Process started for 50 items.
+2020-11-10T20:02:54+00:00 INFO workflows: Process started for 50 items.
+2020-11-10T20:02:55+00:00 INFO workflows: Process started for 50 items.
+2020-11-10T20:02:58+00:00 INFO workflows: Process started for 50 items.
+2020-11-10T20:02:59+00:00 INFO workflows: Process started for 50 items.
+2020-11-10T20:03:00+00:00 INFO workflows: Process started for 50 items.
+2020-11-10T20:03:01+00:00 INFO workflows: Process started for 50 items.
+2020-11-10T20:03:02+00:00 INFO workflows: Process started for 50 items.
+2020-11-10T20:03:03+00:00 INFO workflows: Process started for 50 items.
+2020-11-10T20:03:04+00:00 INFO workflows: Process started for 50 items.
+2020-11-10T20:03:05+00:00 INFO workflows: Process started for 2 items.
+2020-11-10T20:09:09+00:00 INFO workflows: Process completed.
+2020-11-10T20:15:30+00:00 INFO queue: Process started for 1 items.
+2020-11-10T20:15:32+00:00 INFO queue: Process completed.
+2020-11-10T20:16:49+00:00 INFO abandoned_carts: Process started for 1 items.
+2020-11-10T20:16:50+00:00 INFO abandoned_carts: Process completed.
+2020-11-10T20:43:53+00:00 INFO abandoned_carts: Process started for 1 items.
+2020-11-10T20:43:54+00:00 INFO abandoned_carts: Process completed.
+2020-11-10T21:39:32+00:00 INFO queue: Process started for 1 items.
+2020-11-10T21:39:37+00:00 INFO queue: Process completed.
+2020-11-10T22:30:33+00:00 INFO queue: Process started for 3 items.
+2020-11-10T22:30:40+00:00 INFO queue: Process completed.
+2020-11-10T22:54:37+00:00 INFO events: Process started for 1 items.
+2020-11-10T22:54:41+00:00 INFO events: Process completed.
+2020-11-10T22:54:41+00:00 INFO queue: Process started for 1 items.
+2020-11-10T22:54:44+00:00 INFO queue: Process completed.
+2020-11-10T22:58:24+00:00 INFO events: Process started for 2 items.
+2020-11-10T22:58:25+00:00 INFO events: Process completed.

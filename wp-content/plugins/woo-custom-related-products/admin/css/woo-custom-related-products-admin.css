@@ -1,0 +1,21 @@
+.wrap.wcrp_welcome_wrap fieldset {
+    -webkit-box-shadow: 0px 0px 3px 4px rgba(204,204,204,0.43);
+    -moz-box-shadow: 0px 0px 3px 4px rgba(204,204,204,0.43);
+    box-shadow: 0px 0px 3px 4px rgba(204,204,204,0.43);
+    background:#fff;
+    padding:25px;
+}
+.wrap.wcrp_welcome_wrap {
+    font-size: 15px;
+    line-height: 1.5em;
+}
+.wrap.wcrp_welcome_wrap fieldset h2 {
+    font-size: 30px;
+}
+.wrap.wcrp_welcome_wrap ul {
+    list-style: square;
+    margin:0px 20px;
+}
+.wcrp_lite {
+    line-height:25px;
+}

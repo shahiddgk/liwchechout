@@ -1,0 +1,65 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2016-07-13 12:51+0300\n"
+"PO-Revision-Date: 2016-07-13 12:52+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ru_RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Poedit-KeywordsList: _e\n"
+"X-Poedit-SearchPath-0: wp_magnific_popup.php\n"
+
+#: wp_magnific_popup.php:62
+msgid "WP Magnific Popup Settings"
+msgstr "WP Magnific Popup Настройка"
+
+#: wp_magnific_popup.php:67
+msgid "Images"
+msgstr "Изображения"
+
+#: wp_magnific_popup.php:70
+msgid "CSS class for images"
+msgstr "CSS класс для изображений"
+
+#: wp_magnific_popup.php:74
+msgid "Vertical Fit"
+msgstr "Вертикальная подгонка"
+
+#: wp_magnific_popup.php:78
+msgid "Enable Zoom Animation"
+msgstr "Включить анимацию"
+
+#: wp_magnific_popup.php:82
+msgid "Galleries"
+msgstr "Галереи"
+
+#: wp_magnific_popup.php:85
+msgid "CSS class for galleries"
+msgstr "CSS класс для галерей"
+
+#: wp_magnific_popup.php:89
+msgid "Iframes"
+msgstr "iframe"
+
+#: wp_magnific_popup.php:92
+msgid "CSS class for iframes"
+msgstr "CSS класс для iframe"
+
+#: wp_magnific_popup.php:96
+msgid "Dialogs"
+msgstr "Диалоги"
+
+#: wp_magnific_popup.php:99
+msgid "CSS class for dialogs"
+msgstr "CSS класс для диалогов"
+
+#: wp_magnific_popup.php:104
+msgid "Save Changes"
+msgstr ""

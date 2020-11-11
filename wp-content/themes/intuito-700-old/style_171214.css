@@ -1,0 +1,284 @@
+/*
+Theme Name: Intuito 600
+Theme URI: http://intuitowebdesign.com
+Description: Theme created by Intuito
+Author: Rob Haskell, Intuito
+Author URI: http://intuitowebdesign.com
+Version: 1.0
+
+License: This is a commercial theme. Do not copy or distribute without permission. 
+License URI:
+*/
+
+/* Structure */
+body { color:#666; margin:0; padding:0; font-size:90%; font-family:'Open sans', sans-serif; }
+.wrapper { margin:0px auto; max-width:940px; background:white;  }
+.header { padding:10px 0 0; }
+.menu-main { }
+.content { background:#fff; padding:1.4em 0; }
+.post { margin:0 0; min-height:1px; }
+
+
+/* Global tag styles */
+a { text-decoration:none; color:#333; }
+a:hover { text-decoration:underline; }
+img { max-width:100%; height:auto; }
+img[class*="align"],img[class*="wp-image-"] { height: auto; }
+::selection { background:#fedabf; }
+
+h1 { margin-top:0; margin-bottom:0; font-weight:300; font-size:3em;  }
+h2 { font-size:1.4em; font-weight:300; text-transform:uppercase; margin-bottom:0px; }
+h3 { }
+h4, h5, h6 { font-weight: bold; text-decoration:italic; }
+blockquote { margin: 1em 2em; border-left: 1px dashed #999; padding-left: 1em; }
+blockquote p:first-letter { margin: .2em .3em .1em 0; font-size: 220%; font-weight: bold; }
+blockquote p:first-line { font-variant: small-caps; font-size:1.2em; }
+p {margin-top:3px;}
+
+/* -- Header -------------------------------------------------------------------------------------- --> */
+.header-left { float:left; width:50%; }
+.logo { width:55%; min-width:175px; }
+.header-right { float:left; width: 50%; text-align:right; }
+p.header-title { font-size:2.5em; margin-bottom:0; margin-top:.0em; }
+.header-title a:hover {text-decoration: none;}
+p.header-description { font-size:1em; text-transform:uppercase; margin-top:0; margin-bottom:0; }
+#phone { font-size:1.5em; }
+#email { text-transform:uppercase; font-style:italic; }
+
+/* -- Main Menu ---------------------------------------------------------------------------------------- -->  */
+.menu-main ul { padding: 0; margin: 0; list-style: none; font-size:14px; font-weight: 400;float:right;}
+.menu-main ul li { float: left; padding:4px 12px; border-left:1px solid #ddd; margin:12px 0px; }
+.menu-main ul li:first-child { border-left:none; }
+.menu-main ul li a { color: #333; text-decoration: none;  }
+.menu-main ul li a:hover { color:#BC2833; }
+.menu-main ul li.menu-item-33 { background: none !important;}
+
+.menu-main ul li ul { position: absolute; background: white; display: none; z-index:100; box-shadow:0px 0px 3px #cecece; padding:5px 0; }
+.menu-main ul li:hover ul { display: inline;  }
+.menu-main ul li li { clear:left; }
+.menu-main ul li li a { color: black!important; font-weight: normal; font-size:13px;}
+.menu-main ul li li a:hover { color: silver; }
+.current-menu-item a { color:#BC2833!important; } /* Ussually make same as menu-main ul li a:hover  */
+ul li ul li.current-menu-item a { color:#BC2833!important; }
+.current-menu-parent a { color:#BC2833!important; }
+
+/* -- Slideshow ----------------------------------------------------------------------------------- --> */
+.slideshow { float:left; margin-bottom:1.5em; width:100%; }
+
+/* -- Content areas ------------------------------------------------------------------------------- --> */
+.post { color:#666; }
+.page-title { margin:0 0; }
+.thumbnail-in-post { float:right; max-width:30%; }
+
+/* Post listings */
+.post-list { float:left; width:69.79166666666667%; margin:0 0; line-height:1.5em;  }
+.post-in-list {float:left; margin-bottom:1em; width:100%; } 
+.post-in-list p { font-size:.9em; }
+.post-in-list h2 { margin-bottom:0; margin-top:0; }
+.post-thumbnail { width:120px; float:left; margin:0 1em 1em 0; }
+
+/* Post info */
+.post-info { opacity:.7; }
+.post-info ul { list-style:none; margin:0; padding:0; }
+.post-info ul li { display:inline; }
+.post-info ul li:after { content:" | "; }
+.post-info ul li:last-child:after { content:""; }
+
+/* Portfolio pages */
+.portfolio-item { width:65%; }
+/*.portfolio-slider-container { float:left; width:65%; }
+.portfolio-content-container { float:left; width:31%; padding:0 0 0 2.7%; }*/
+.portfolio-slider-container { float:left; width:61.2%; }
+.portfolio-content-container { float:left; width:35%; padding:0 0 0 2.7%; }
+
+/* Staff Pages */
+.col-3 { width: 32%; float:left; margin-left:2%; margin-bottom:20px; }
+.col-3:first-child { margin-left:0; }
+.col-3:nth-child(3n+4) { margin-left:0; }
+.col-3 img {display:block;}
+.staff { width:auto; }
+
+/* -- Content areas ------------------------------------------------------------------------------- --> */
+.col-4 { width:23%; margin-left:2%; float:left; }
+.col-4:first-child { margin-left:0; }
+
+.hp-news-item h3 { font-size:14px; text-transform:none; margin-bottom:6px;} 
+.hp-news-item h4 { margin-top:0; font-weight:normal; }
+.read-more { display:inline-block; background:#333; color:#fff; border-radius:3px; padding:6px 12px; }
+.read-more a {color:#fff;}
+
+/* Sidebar -------------------------------------------------------------------------------------------> */
+.sidebar ul { list-style:none; padding:0; }
+.sidebar ul li { margin-bottom:30px; }
+.sidebar ul li h2 { font-weight:normal; text-transform:uppercase; font-size:1em; }
+.sidebar ul li ul { }
+.sidebar ul li ul li { margin-bottom:5px; }
+.sb-left {  }
+.sb-right {  }
+
+/* -- Footer -------------------------------------------------------------------------------------- --> */
+.footer { font-size:10pt; color:#fafafa; background:#ccc; padding:20px; }
+.footer a { color:#909090; }
+.footer a:hover { color:#BC2833; }
+.footer-menu-wrapper { }
+ul#menu-footer { list-style:none; padding-left:0; margin:0 0 .4em 0;}
+ul#menu-footer li { display:inline; margin-right:7px; }
+.site-info { text-align:center; }
+
+
+/* -- Images -------------------------------------------------------------------------------------- --> */
+img.alignright { float:right; margin:0 0 1em 1em; }
+img.alignleft { float:left; margin:0 1em 1em 0; }
+img.aligncenter { display: block; margin-left: auto; margin-right: auto; }
+a img.alignright { float:right; margin:0 0 1em 1em; }
+a img.alignleft { float:left; margin:0 1em 1em 0; }
+a img.aligncenter { display: block; margin-left: auto; margin-right: auto; }
+.wp-caption.aligncenter {display: block; margin-left: auto; margin-right: auto; text-align:center; font-size:11px; font-style:italic; }
+.wp-caption.alignright {float:right; margin:0 0 1em 1em; text-align:center; font-size:11px; font-style:italic; }
+.wp-caption.alignleft {float:left; margin:0 1em 1em 0; text-align:center; font-size:11px; font-style:italic; }
+p.wp-caption-text { margin-top: 0px; color:silver; }
+
+/* -- Responsive ---------------------------------------------------------------------------------- -->  */
+
+/* Select navigation */
+.selectnav { display: none; }
+.sidebar { width:25%; background:#f0f0f0; float:right; padding:1% 2%; }
+
+@media screen and (max-width: 1024px) {
+.wrapper { width:98%; }
+.wrapper { margin-left:1%; }
+.sidebar { width:25%; background:#f0f0f0; float:right; padding:1% 2%; }
+}
+
+@media screen and (max-width: 600px) {
+  .js #nav { display: none; }
+  .js .selectnav { display: block; width:100%; height:50px; background:#eee; font-size:1.3em; }
+.sidebar {  width:96%; background:#f0f0f0;  margin:0 2%; float: left;}
+.col-4 { float:none; width:auto; margin:0; }
+.portfolio-slider-container, .portfolio-content-container { width:100%; float:none; }
+.read-more { margin-bottom:12px; }
+}
+
+@media screen and (max-width: 480px) {
+.header { background-position:no-repeat; }
+.header-left, .header-right { float:none; width:100%; }
+.logo { margin:0 auto; }
+p.header-title, p.header-description { text-align:center; margin-top:0; }
+/*.post, .sidebar { float:none; width:96%; margin:0 2%; }*/
+.post-list { float:none; width:96%; margin:0 2%; }
+.sidebar {  width:96%; background:#f0f0f0; margin:0 2%; float: left;}
+.col-3 { float:none; width:100%; margin:0; margin-bottom:12px; }
+}
+
+@media screen and (max-width: 320px) {
+
+.post-list { float:none; width:96%; margin:0 2%; }
+.sidebar {  width:96%;background:#f0f0f0;  margin:0 2%; float: left; }
+}
+
+@media screen and (max-width: 240px) {
+.post-list { float:none; width:96%; margin:0 2%; }
+.sidebar {  width:96%;background:#f0f0f0;  margin:0 2%;float: left}
+
+}
+
+.portfolie {
+	width: 100% ;
+}
+
+.portfolie .col-4 { margin-left: 2.6%;}
+.portfolie .col-4:first-child { margin-left:0; }
+/*
+    these are just the default styles used in the Cycle2 demo pages.  
+    you can use these styles or any others that you wish.
+*/
+
+
+/* set border-box so that percents can be used for width, padding, etc (personal preference) */
+.cycle-slideshow, .cycle-slideshow * { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+
+
+.cycle-slideshow {  margin: 10px auto; padding: 0; position: relative;
+    background: url(images/spinner.gif) 50% 50% no-repeat;
+
+ }
+
+/* slideshow images (for most of the demos, these are the actual "slides") */
+.cycle-slideshow img { 
+    /* 
+    some of these styles will be set by the plugin (by default) but setting them here
+    helps avoid flash-of-unstyled-content
+    */
+    position: absolute; top: 0; left: 0;
+    padding: 0; display: block;
+}
+
+/* in case script does not load */
+.cycle-slideshow img:first-child {
+    position: static; z-index: 100;
+}
+
+/* pager */
+.cycle-pager { 
+    text-align: center; width: 100%; z-index: 500; position: absolute; top: 10px; overflow: hidden;
+}
+.cycle-pager span { 
+    font-family: arial; font-size: 50px; width: 16px; height: 16px; 
+    display: inline-block; color: #ddd; cursor: pointer; 
+}
+.cycle-pager span.cycle-pager-active { color: #D69746;}
+.cycle-pager > * { cursor: pointer;}
+
+
+/* caption */
+.cycle-caption { position: absolute; color: white; bottom: 15px; right: 15px; z-index: 700; }
+
+
+/* overlay */
+.cycle-overlay { 
+    font-family: tahoma, arial;
+    position: absolute; bottom: 0; width: 100%; z-index: 600;
+    background: black; color: white; padding: 15px; opacity: .5;
+}
+
+
+/* prev / next links */
+.cycle-prev, .cycle-next { position: absolute; top: 0; width: 30%; opacity: 0; filter: alpha(opacity=0); z-index: 800; height: 100%; cursor: pointer; }
+.cycle-prev { left: 0;  background: url(images/left.png) 50% 50% no-repeat;}
+.cycle-next { right: 0; background: url(images/right.png) 50% 50% no-repeat;}
+.cycle-prev:hover, .cycle-next:hover { opacity: .7; filter: alpha(opacity=70) }
+
+.disabled { opacity: .5; filter:alpha(opacity=50); }
+
+
+/* display paused text on top of paused slideshow */
+.cycle-paused:after {
+    content: 'Paused'; color: white; background: black; padding: 10px;
+    z-index: 500; position: absolute; top: 10px; right: 10px;
+    border-radius: 10px;
+    opacity: .5; filter: alpha(opacity=50);
+}
+
+/* 
+    media queries 
+    some style overrides to make things more pleasant on mobile devices
+*/
+
+@media only screen and (max-width: 480px), only screen and (max-device-width: 480px) {
+    .cycle-overlay { padding: 4px }
+    .cycle-caption { bottom: 4px; right: 4px }
+}
+
+.smooth
+{
+color: #990000;
+transition: color .2s ease-out, background 0.5s ease-in;
+}
+.smooth:hover
+{
+color: #FFFFFF;
+background-color: #336699;
+text-shadow: none;
+opacity: 0.7;
+}
+.staff-single { max-width: 39%; margin-left: 2%}
